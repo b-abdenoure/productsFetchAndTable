@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072606EA29D74A2C0098704F /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072606E929D74A2C0098704F /* ProductsCell.swift */; };
 		07600F5C29D443C00016203E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07600F5B29D443C00016203E /* AppDelegate.swift */; };
 		07600F5E29D443C00016203E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07600F5D29D443C00016203E /* SceneDelegate.swift */; };
 		07600F6029D443C00016203E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07600F5F29D443C00016203E /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		072606E929D74A2C0098704F /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
 		07600F5829D443C00016203E /* productsFetchAndTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = productsFetchAndTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07600F5B29D443C00016203E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07600F5D29D443C00016203E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				07600F7029D46B3A0016203E /* Products.swift */,
 				07600F5F29D443C00016203E /* ViewController.swift */,
 				07600F6129D443C00016203E /* Main.storyboard */,
+				072606E929D74A2C0098704F /* ProductsCell.swift */,
 				07600F6429D443C30016203E /* Assets.xcassets */,
 				07600F6629D443C30016203E /* LaunchScreen.storyboard */,
 				07600F6929D443C30016203E /* Info.plist */,
@@ -142,6 +145,7 @@
 			files = (
 				07600F6029D443C00016203E /* ViewController.swift in Sources */,
 				07600F7129D46B3A0016203E /* Products.swift in Sources */,
+				072606EA29D74A2C0098704F /* ProductsCell.swift in Sources */,
 				07600F5C29D443C00016203E /* AppDelegate.swift in Sources */,
 				07600F5E29D443C00016203E /* SceneDelegate.swift in Sources */,
 			);
