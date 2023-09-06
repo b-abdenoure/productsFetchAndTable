@@ -20,9 +20,9 @@ class ProductsCell: UITableViewCell{
         super.prepareForReuse()
         imageCell.image = #imageLiteral(resourceName: "IOS_logo")
         titleCell.text = "1"
-        descriptionCell.text = "1"
-        categoryCell.text = "1"
-        idCell.text = "1"
+//        descriptionCell.text = "1"
+//        categoryCell.text = "1"
+//        idCell.text = "1"
         priceCell.text = "1"
     }
     
