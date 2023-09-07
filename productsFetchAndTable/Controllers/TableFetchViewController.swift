@@ -71,12 +71,15 @@ extension TableFetchViewController: UITableViewDataSource, UITableViewDelegate{
         let price = "\(String(describing: product.price!))"
         cell.priceCell.text = price + " $"
 //        cell.descriptionCell.text = product.description!
-        
-        DispatchQueue.main.async {
+        DispatchQueue.global().async {
             let url = URL(string: product.image)!
+            
             if let data = try? Data(contentsOf: url) {
-                cell.imageCell.image = UIImage(data: data)
-            }
+                DispatchQueue.main.async {
+                                cell.imageCell.image = UIImage(data: data)
+                            }
+        }
+        
         }
 //        cell.categoryCell.text = product.category!
 
